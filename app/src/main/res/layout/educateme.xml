@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EducateMeActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_below="@+id/image"
+        android:layout_marginStart="20sp"
+        android:layout_marginEnd="5sp" />
+
+    <TextView
+        android:id="@+id/details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/environmentaleffect"
+        android:textSize="18sp"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimaryDark"
+        android:layout_below="@+id/title"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginEnd="5sp" />
+
+        <TextView
+            android:id="@+id/subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Surface Water Contamination :"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:background="@color/colorPrimaryDark"
+            android:layout_below="@+id/details"
+            android:layout_marginStart="10sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginEnd="5sp" />
+
+
+        <TextView
+            android:id="@+id/detailone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/surfacewater"
+            android:textSize="18sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_below="@+id/subtitle"
+            android:layout_marginStart="10sp"
+            android:layout_marginTop="20sp"
+            android:fontFamily="sans-serif"
+            android:layout_marginEnd="5sp" />
+
+        <TextView
+            android:id="@+id/subtitleone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Soil Contamination :"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:background="@color/colorPrimaryDark"
+            android:layout_below="@+id/detailone"
+            android:layout_marginStart="10sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginEnd="5sp" />
+
+        <TextView
+            android:id="@+id/detailtwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/soil_contami"
+            android:textSize="18sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_below="@+id/subtitleone"
+            android:layout_marginStart="10sp"
+            android:layout_marginTop="20sp"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_marginEnd="5sp" />
+
+        <TextView
+            android:id="@+id/soilcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Soil Contamination :"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:background="@color/colorPrimaryDark"
+            android:layout_below="@+id/detailone"
+            android:layout_marginStart="10sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginEnd="5sp" />
+
+        <TextView
+            android:id="@+id/soilcondetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/soil_contami"
+            android:textSize="18sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_below="@+id/soilcon"
+            android:layout_marginStart="10sp"
+            android:layout_marginTop="20sp"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_marginEnd="5sp" />
+
+        <TextView
+            android:id="@+id/pollution"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pollution :"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:background="@color/colorPrimaryDark"
+            android:layout_below="@+id/soilcondetail"
+            android:layout_marginStart="10sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginEnd="5sp" />
+
+        <TextView
+            android:id="@+id/pollutiondet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pullutiondetails"
+            android:textSize="18sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_below="@+id/pollution"
+            android:layout_marginStart="10sp"
+            android:layout_marginTop="20sp"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_marginEnd="5sp" />
+
+        <TextView
+            android:id="@+id/economiceffect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ECONOMIC EFFECTS"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:background="@color/colorPrimaryDark"
+            android:layout_below="@+id/pollutiondet"
+            android:layout_marginStart="10sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginEnd="5sp" />
+
+        <TextView
+            android:id="@+id/communitywellbeing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Community Wellbeing :"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:background="@color/colorPrimaryDark"
+            android:layout_below="@+id/economiceffect"
+            android:layout_marginStart="10sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginEnd="5sp" />
+
+        <TextView
+            android:id="@+id/communitydetails"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/communitywellbeing"
+            android:textSize="18sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_below="@+id/communitywellbeing"
+            android:layout_marginStart="10sp"
+            android:layout_marginTop="20sp"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_marginEnd="5sp" />
+        <TextView
+            android:id="@+id/recycling"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Recycling Revenue :"
+            android:textSize="18sp"
+            android:textColor="@android:color/white"
+            android:background="@color/colorPrimaryDark"
+            android:layout_below="@+id/communitydetails"
+            android:layout_marginStart="10sp"
+            android:layout_marginTop="10sp"
+            android:layout_marginEnd="5sp" />
+
+        <TextView
+            android:id="@+id/recyclingreven"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/recycling"
+            android:textSize="18sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:layout_below="@+id/recycling"
+            android:layout_marginStart="10sp"
+            android:layout_marginTop="20sp"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_marginEnd="5sp" />
+
+    </RelativeLayout>
+
+</android.support.v4.widget.NestedScrollView>

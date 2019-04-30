@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FeedbackActivity">
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Feed Back Or Complain Centre"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/colorPrimaryDark"
+        />
+    <ImageView
+        android:id="@+id/logocom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/seweragelogonav"
+        android:layout_below="@+id/text"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        />
+    <EditText
+        android:id="@+id/complainName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name or Email"
+        android:layout_below="@+id/logocom"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        />
+    <EditText
+        android:id="@+id/complainText"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="Type Feedback or complain here"
+        android:layout_below="@+id/complainName"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        />
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="submit"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_below="@+id/complainText"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="right"
+        />
+
+</LinearLayout>

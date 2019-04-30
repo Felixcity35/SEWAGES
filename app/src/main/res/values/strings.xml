@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">SEWERAGE</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Sewerage App</string>
+    <string name="nav_header_subtitle">Sewageapp@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="intro">here you can find a plumber, evacuate your sewage at affordable price buy plumbering materials etc</string>
+    <string name="request">Request For Service</string>
+
+    <string name="environmentaleffect">ENVIRONMENTAL EFFECTS </string>
+
+    <string name="title">Tips On The Dangers Of Poor Sewage Disposal</string>
+    <string name="surfacewater"> Sewage that end up in water bodies negatively change the chemical composition of the water. This will affect the ecosystem existing in the water.it causes harm to animals and humans that drink from such polluted water.</string>
+    <string name="soil_contami">Sewage can harm plant when they take up the contamination through their roots. The plants in turn have negative impact on humans that consume them.</string>
+    <string name="pullutiondetails">Poor and Primitive sewerage disposal can result to land and air pollution and can cause respiratory problems as contaminants are absorbed from the lungs into other part of the body.</string>
+    <string name="communitywellbeing">Every one want to live and visit places that are clean,fresh and healthy.An area with poor sanitation, do not attract people, investors and tourists. And the standard of living tends to be low.</string>
+    <string name="recycling">An area that do not invest in recycling and proper sewage management miss out on job opportunities that comes from recycling, composting and business that work with them .</string>
+    <string name="about">Sewerage is developed with a deep passion of putting an end to the menace of improper sewage disposal particularly in Calabar Municipal of Cross River State and Nigeria in general.</string>
+
+
+</resources>
